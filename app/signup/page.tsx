@@ -76,7 +76,7 @@ export default function SignupPage() {
           <form onSubmit={handleEmailSignup} className="space-y-6">
             <div className="space-y-2">
               <label className="text-sm font-medium text-gray-300 text-white">Full Name</label>
-              <Input 
+              <Input className="text-white"
                 type="text" 
                 placeholder="John Doe" 
                 icon={<User size={20} />}
@@ -86,7 +86,7 @@ export default function SignupPage() {
               />
             </div>
 
-            <div className="space-y-2">
+            <div className="space-y-2 text-white">
               <label className="text-sm font-medium text-gray-300">Email Address</label>
               <Input 
                 type="email" 
