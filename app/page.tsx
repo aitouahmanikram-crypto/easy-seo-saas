@@ -86,7 +86,7 @@ export default function LandingPage() {
               Login
             </Link>
           )}
-          <button className="bg-white/5 hover:bg-white/10 border border-white/10 px-6 py-2.5 rounded-full font-semibold flex items-center gap-2 transition-all">
+          <button className="bg-white/5 hover:bg-white/10 border border-white/10 px-6 py-2.5 rounded-full font-semibold flex items-center gap-2 transition-all" onclick="window.location.href='https://app.supademo.com/demo/cmo1pobso2cliru18ghegrrvc?utm_source=link'">
             <Play size={18} className="text-brand-400" fill="currentColor" />
             Watch Demo
           </button>
